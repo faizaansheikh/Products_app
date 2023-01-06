@@ -1,0 +1,127 @@
+.mybtn{
+    background-color: rgb(27, 26, 32);
+    color: aliceblue;
+    width: 100%;
+    font-size: 16px;
+    margin: 20px 0px 0px;
+    padding: 15px 0px;
+    border: none;
+    transition: background-color 0.2s ease 0s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: background-color;
+}
+.checkout{
+    background-color: #000000c5;
+    color: aliceblue;
+    width: 100%;
+    font-size: 16px;
+    margin: 20px 0px 0px;
+    padding: 15px 0px;
+    border: none;
+    transition: background-color 0.2s ease 0s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: background-color;
+    margin-bottom: 25px;
+}
+.checkout:hover{
+    background-color: black;
+    cursor: pointer;
+}
+/* .card{
+    transition: transform .2s;
+} */
+.card:hover{
+    transition: transform 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card:hover .mybtn{
+    background-color: rgb(234, 191, 0);
+    cursor: pointer;
+}
+.mybtn:hover{
+    background-color: rgb(234, 191, 0);
+    cursor: pointer;
+}
+.hrTag{
+    border: 1px solid black;
+   width: 83%;
+}
+.clear{
+    font-weight: 900;
+    color: black;
+}
+.clear:hover{
+    cursor: pointer;
+    color: antiquewhite;
+}
+.btn{
+    color:white;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+   width: 30px;
+   height: 25px;
+}
+.cBtn{
+    color:white;
+    background-color: black;
+    border: none;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.btn,.cBtn:hover{
+    cursor: pointer;
+}
+.num{
+    background-color: #dd901a;
+    width: 18px;
+    height: 18px;
+    color: rgb(12, 11, 16);
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    /* background-color:  #1e1c269f; */
+}
+.nums{
+    background-color: #dd901a;
+    width: 18px;
+    height: 18px;
+    color: rgb(12, 11, 16);
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    position: relative;
+    /* bottom: 20px; */
+    /* right: 30px; */
+    top: 33px;
+    left: 52px;
+  
+    float: right;
+}
+.cl{
+    color: aliceblue;
+    padding: 20px;
+    
+}
+.cl:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.shoping:hover{
+     color: rgb(228, 217, 209);
+    
+    cursor: pointer;
+}
